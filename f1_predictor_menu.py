@@ -51,7 +51,7 @@ def main():
             break
 
         if choice == '0':
-            print("\nExiting F1 Predictor. Goodbye! 🏎️")
+            print("\nExiting F1 Predictor. Goodbye!")
             break
         elif choice == '1':
             run_script('fetch_data.py', 'Fetching F1 data')
@@ -133,7 +133,7 @@ def run_full_pipeline():
             return
 
     print("\n" + "="*50)
-    print("FULL PIPELINE COMPLETED SUCCESSFULLY! 🏁")
+    print("FULL PIPELINE COMPLETED SUCCESSFULLY!")
     print("="*50)
 
 if __name__ == "__main__":

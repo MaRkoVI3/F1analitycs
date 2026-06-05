@@ -43,9 +43,10 @@ def save_data(data, year, data_type):
 
 def main():
     """
-    Main function to fetch data for years 2021-2025 for both results and qualifying.
+    Main function to fetch data for years 2021-2026 for both results and qualifying.
+    For 2026, only races that have occurred up to the current date are considered.
     """
-    years = list(range(2021, 2026))  # 2021 to 2025 inclusive
+    years = list(range(2021, 2027))  # 2021 to 2026 inclusive
     data_types = ['results', 'qualifying']
 
     for year in years:
